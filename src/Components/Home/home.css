@@ -66,16 +66,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     position: relative;
-    min-height:45vh;
-    height:95vh;
     margin-top:50px;
+    width:100%;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/knitting-319c2.appspot.com/o/photo-1565878038673-ed1bccf6a28f.jpg?alt=media&token=be8b1baf-8718-4f5c-96e0-83676a7e1cbf');
+    min-height:95vh;
+    padding:0;
     background-attachment: fixed;
     background-size: cover;
-    background-position: top center;
+    overflow:hidden;
     background-repeat: no-repeat;
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/knitting-319c2.appspot.com/o/photo-1565878038673-ed1bccf6a28f.jpg?alt=media&token=be8b1baf-8718-4f5c-96e0-83676a7e1cbf');
+    background-position: top center;
+    
 }
 
 .banner button{
@@ -84,8 +86,6 @@
     letter-spacing: 2.5px;
     font-size: 12px;
     text-transform: uppercase;
-  
-   
     margin:0 auto;
     padding: 0 15px;
     line-height: 35px;
@@ -380,6 +380,10 @@
         width:100%;
         margin:0 auto;
     }
+
+.banner{
+    background-size:1200px;
+}
 
     .nRow0, .nRow1{
         margin:10px 0;
