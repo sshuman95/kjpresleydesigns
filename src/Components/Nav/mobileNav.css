@@ -1,0 +1,80 @@
+#drawer{
+
+    align-items: center;
+    display:none;
+}
+
+
+#closeButton{
+    width:30%;
+    height:2em;
+    margin:0 auto 5px auto;
+    background-color:white;
+    border:3px solid rgb(96, 73, 139);
+    border-radius:10%;
+    color:rgb(103, 147, 71);
+    font-size:15px;
+}
+
+.navList2{
+    list-style: none;
+    color:rgb(103, 147, 71);
+    padding:0;
+    width:100%;
+    margin-top:0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mobileStoreNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor:pointer;
+    width:100%;
+}
+
+.navList2 li{
+  
+    margin:0px auto;
+    width:100%;
+    padding:10px;
+    
+
+}
+
+
+.mobileLink{
+    color:rgb(103, 147, 71);
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    padding:0;
+    margin:5px 0;
+}
+
+.mobileNav{
+    list-style: none;
+    width:auto;
+    display: inline-flex;
+    flex-direction: column;
+  
+}
+
+.mobileNav li{
+    padding:0;
+}
+
+
+@media only screen and (max-width: 700px){
+    .navList{
+        display:none;
+    }
+
+    #drawer{
+        display:flex;
+        flex-direction: column;
+    }
+}

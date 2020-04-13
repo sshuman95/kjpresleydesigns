@@ -1,0 +1,134 @@
+.customContainer{
+    margin-top:80px;
+    width:100%;
+    text-align: center;
+    font-family: "Josfin Sans";
+    color:rgb(96, 73, 139);
+
+
+}
+
+#customForm{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: left;
+   margin:0 auto;
+   max-width:1000px;
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width:100%;
+    height:100%;
+}
+
+.formInput{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    justify-content: center;
+    line-height:30px;
+}
+
+.textAreaInput{
+ display:flex;
+ flex-direction: column;
+ margin-top: 5px;
+ line-height:30px;
+}
+
+.textAreaInput textarea{
+    width:100%;
+    max-width: 100%;
+    height:150px;
+    max-height:200px;
+}
+
+
+.imageInfo{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageInfo input{
+    margin: 0 auto;
+    width:fit-content
+}
+.customButton{
+    background-color: rgb(96, 73, 139);
+    color: white;
+ 
+    border-radius: 10px;
+    width:9em;
+    height:2em;
+    font-size: 20px;
+    font-family:'Dancing Script';
+    margin:40px auto 0 auto;
+    border:1px solid rgb(96, 73, 139);
+}
+
+.customButton:hover{
+  
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid  rgb(96, 73, 139);
+    background-color: white;
+    color: rgb(96, 73, 139);
+}
+
+#uploadImg{
+    height:200px;
+    width:200px;
+}
+
+@media only screen and (max-width: 850px){
+    .personalInfo{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width:100%;
+        height:100%;
+        justify-content: center;
+        
+    }
+    .formInput{
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+        justify-content: center;
+        line-height:30px;
+    }
+
+    .textAreaInput{
+        display:flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width:80%;
+       }
+    
+    .textAreaInput textarea{
+        justify-content: center;
+        width:100%;
+        max-width: 100%;
+        height:150px;
+        max-height:200px;
+    }
+    
+    .imageInfo{
+        display: flex;
+        flex-direction: column;
+        margin:10px auto;
+        width:50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

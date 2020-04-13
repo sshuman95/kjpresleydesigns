@@ -1,0 +1,53 @@
+.colorFormContainer{
+    margin-top:0px;
+    width:100%;
+    text-align: center;
+    font-family: "Josfin Sans";
+    color:rgb(96, 73, 139);
+
+}
+
+#newColorForm{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: left;
+    margin:20px auto 0 auto;
+    max-width:1000px;
+}
+
+.submitColorButton{
+    background-color: rgb(96, 73, 139);
+    color: white;
+    padding-top:4px;
+    border-radius: 10px;
+    width:9em;
+    height:1.5em;
+    font-size: 20px;
+    font-family:'Josefin Sans';
+    margin:20px auto 0 auto;
+    border:1px solid rgb(96, 73, 139);
+}
+
+.submitColorButton:hover{
+  
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid  rgb(96, 73, 139);
+    background-color: white;
+    color: rgb(96, 73, 139);
+}
+
+#uploadImg{
+    height:200px;
+    width:200px;
+    margin: 0 auto;
+}
+
+.deleteColor{
+    margin-top:10px;
+}
+
+@media only screen and (max-width: 850px){
+   
+}

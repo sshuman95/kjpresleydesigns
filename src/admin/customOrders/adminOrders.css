@@ -1,0 +1,14 @@
+.adminOrders{
+    border:1px solid black;
+    width:100%;
+}
+
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderContainer a{
+
+ width:fit-content;
+}

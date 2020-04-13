@@ -1,0 +1,39 @@
+.aboutContainer{
+display:flex;
+flex-direction: column;
+    font-family: "Josefin Sans";
+    margin-top:30px;
+}
+
+.aboutContainer h2{
+   margin-bottom: 0;
+    height: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    background-color: rgb(103, 147, 71);
+    width:100%;
+    color:white;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+
+
+.aboutBanner{
+
+    margin:0 auto;
+    width: 60%;
+    max-height:500px;
+}
+
+.p1{
+
+    height:100%;
+    width: 100%;
+    line-height: 30px;
+    color:white;
+    color: rgb(103, 147, 71);
+    font-size: 2em;
+    text-align: center;
+    
+}

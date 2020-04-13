@@ -1,0 +1,145 @@
+.reviewForm{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding:0;
+}
+
+
+.reviewForm li {
+ margin-top:10px;
+}
+.reviewForm label{
+	margin:0 0 3px 0;
+	padding-bottom:5px;
+	display:block;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+input, 
+#review,select {
+  font-size: 1em;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+
+.gridButton{
+    margin:15px auto;  
+    background-color: rgb(96, 73, 139);
+    color: white;
+    border-radius: 10px;
+    font-family:'Dancing Script';
+    border:1px solid white;
+    font-size:20px;
+    width:9em;
+    height:2em;
+    padding:0;
+}
+
+.gridButton:hover{
+    background-color: white;
+    color: rgb(96, 73, 139);
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid  rgb(96, 73, 139);
+}
+
+
+/*
+
+.reviewForm{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Josefin Sans';
+}
+
+
+.reviewForm p{
+    width: 100%;
+    border:1px solid black;
+
+
+}
+
+.reviewForm label {
+    vertical-align: top;
+}
+.redo{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:auto auto auto auto;
+    grid-gap:15px;
+}
+
+
+
+.gridName{
+    grid-column:1/1;
+    grid-row:1/1;
+    align-self: flex-end;
+}
+
+
+.gridNameInput{
+    grid-column:2/2;
+    grid-row:1/1;
+    align-self: flex-end;
+    justify-self: left;
+}
+
+
+
+.gridRating{
+    grid-column:1/1;
+    grid-row:2/2;
+    align-self: flex-end;
+}
+
+
+.gridRatingInput{
+    grid-column:2/2;
+    grid-row:2/2;
+    align-self: flex-end;
+    justify-self: left;
+}
+
+
+.gridReview{
+    grid-column:1/1;
+    grid-row:3/3;
+    align-self: flex-end;
+}
+
+
+.gridReviewInput{
+    grid-column:2/2;
+    grid-row:3/3;
+    align-self: flex-end;
+    justify-self: left;
+}
+
+
+.gridButton{
+    grid-column:1/3;
+    margin:0 auto;
+    width:8em;
+    grid-row:4/4;
+    align-self: flex-end;
+    justify-self: left;
+    background-color: rgb(96, 73, 139);
+    color: white;
+    border-radius: 10px;
+    font-family:'Dancing Script';
+    border:1px solid white;
+    font-size:1.5em;
+}*/

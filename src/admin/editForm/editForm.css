@@ -1,0 +1,80 @@
+.clydeDog{
+    width:500px;
+}
+
+.editForm{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width:100%;
+    align-content: center;
+}
+
+.editForm label{
+    margin-top:15px;
+}
+
+.colorContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.editForm button{
+    width:30%;
+    margin:0 auto;
+}
+
+.colorsLabel{
+    width:60%;
+}
+
+.buttonContainer{
+    padding-top:15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemDashWrapper{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+}
+
+.itemDashWrapper img{
+    width:150px;
+    height:150px;
+    align-self: center;
+}
+
+.closeEditBtn{
+    align-self: flex-end;
+}
+
+#colorListContainer{
+    display:flex;
+    
+}
+
+.colorList{
+    display:flex;
+    border:1px solid black;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+    padding:5px;
+    margin:5px 10px;
+}
+@media only screen and (max-width: 700px){
+    .clydeDog{
+        width:300px;
+    }
+
+    #colorListContainer{
+        display:flex;
+        flex-direction: column;
+    }
+    
+
+}
