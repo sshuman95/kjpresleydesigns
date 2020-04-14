@@ -42,9 +42,6 @@ const Nav = ({quantity})=>{
         <Link className='link' to='/custom' >
          <li onMouseEnter={handleClose}>Custom Orders</li>
         </Link>
-        <Link className='link' to='/about' >
-         <li onMouseEnter={handleClose}>About Us</li>
-        </Link>
         <Link className='link' to='/Cart'>
             <i onMouseEnter={handleClose} className="fa fa-shopping-cart" style={{fontSize:'24px',paddingBottom:'13px'}}><span style={{fontSize:'12px'}}>{(quantity>0)?(`(${quantity})`):null}</span></i>
         </Link>

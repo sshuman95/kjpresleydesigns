@@ -40,6 +40,9 @@ class TemporaryDrawer extends React.Component{
                 {    
                 <Drawer anchor="top" open={this.state.top}>
                     <ul className='navList2'>
+                    <Link to='/' className='mobileLink'>
+                        <li onClick={this.closeDrawer()}>Home</li>
+                    </Link>
                     <div onClick={this.handleOpen} className='mobileStoreNav'>
                     
                     <li className='mobileLink'>Store</li>
@@ -68,9 +71,6 @@ class TemporaryDrawer extends React.Component{
                     </ul>:null}
                     <Link to='/custom' className='mobileLink'>
                         <li onClick={this.closeDrawer()}>Custom Orders</li>
-                    </Link>
-                    <Link to='/about' className='mobileLink'>
-                        <li onClick={this.closeDrawer()}>About Us</li>
                     </Link>
                     <Link to='/Cart' className='mobileLink'>
                         <li onClick={this.closeDrawer()}>Cart</li>

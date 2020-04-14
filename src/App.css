@@ -10,7 +10,7 @@ html,body{
   display: flex;
   position: absolute;
   bottom:-1;
-  margin-top:125px;
+  margin-top:130px;
   margin-bottom: 0;
   background-color: rgb(96, 73, 139) !important;
   color:white;
@@ -42,19 +42,24 @@ html,body{
   display:flex;
   margin:0;
   align-items: flex-start;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: space-between;
 
 
 }
 
-.footer section article ul li{
+.footer section article ul li {
   margin:0 0 10px 0;
   padding:0;
 }
 
+.footer section article ul li a{
+  color:white;
+  text-decoration: none;
+}
+
 .footLink{
- 
+  text-decoration: none;
   color:white;
   
 }

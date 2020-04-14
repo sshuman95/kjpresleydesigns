@@ -205,18 +205,16 @@ class App extends React.Component{
                     </Link>
                   </li>
                   <li>
-                  <Link to='/' className='footLink' stlye={{width:'45%'}}>
-                    Home
+                  <Link to='/custom' className='footLink' stlye={{width:'45%'}}>
+                    Custom Orders
                     </Link>
                   </li>
                   <li>
-                  <Link to='/'  className='footLink' stlye={{width:'45%'}}>
-                    Home
-                    </Link>
+                  <a href="https://www.facebook.com/KJPresleyDesigns/" target='_blank' rel="noopener noreferrer">Facebook</a>
                   </li>
                   <li>
-                  <Link to='/' className='footLink' stlye={{width:'45%'}}>
-                    Home
+                  <Link to='/store/All' className='footLink' stlye={{width:'45%'}}>
+                    Store
                     </Link>
                   </li>
                 </ul>
