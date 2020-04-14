@@ -62,6 +62,7 @@ function StoreItem(props){
   const [expanded, setExpanded] = React.useState(false);
 
     useEffect(()=>{
+      window.scrollTo(0, 0);
       async function getItem(){
         if(!item.tags || props.tag.match.params.tag !==item.tags[0]){
         axios.get(`/items/${props.tag.match.params.tag}/${props.tag.match.params.id}`

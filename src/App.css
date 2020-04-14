@@ -4,6 +4,57 @@ html,body{
     sans-serif,'Baskervvile','Dancing Script','Montserrat','Josefin Sans';
     margin:0px;
     padding:0px;
-    
 }
 
+.footer{
+  display: flex;
+  position: absolute;
+  bottom:-1;
+  margin-top:125px;
+  margin-bottom: 0;
+  background-color: rgb(96, 73, 139) !important;
+  color:white;
+  padding:0;
+  font-family: "Josefin Sans";
+}
+
+.footer section{
+  display:flex;
+  flex-direction: column;
+  width:33%;
+  justify-content: center;
+
+}
+
+
+.footer section article{
+  width:80%;
+  display:flex;
+  align-self: center;
+  flex-direction: column;
+  height:100%;
+}
+
+
+.footer section article ul{
+  list-style: none;
+  padding-left:0;
+  display:flex;
+  margin:0;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+
+}
+
+.footer section article ul li{
+  margin:0 0 10px 0;
+  padding:0;
+}
+
+.footLink{
+ 
+  color:white;
+  
+}

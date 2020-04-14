@@ -52,7 +52,7 @@ class Store extends React.Component{
           <div id='storeContainer'>
             <h2 className='storeHeader'>All Items</h2>
             <div id='itemContainer'>
-            {this.state.items.length===0?<Loading></Loading>:
+            {this.state.items.length===0?<Loading id='storeLoading'></Loading>:
                   items.map(item=>{
                     return (
                       <ThemeProvider key={item.itemId} theme={theme}>

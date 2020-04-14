@@ -11,6 +11,7 @@ import Nav from './Components/Nav/nav';
 import About from './Components/About/about';
 import FilterStore from './Components/Store/filterStore';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 const Home = lazy(() => import('./Components/Home/home'));
 // const Store = lazy(() => import('./Components/Store/store'));
@@ -187,7 +188,49 @@ class App extends React.Component{
            <Route  exact path="/about" component={About} />
            <Route  exact path="/admin" component={Admin} />
             </Switch>
+            <footer className='footer'>
+              <section>
+                <article>
+                <h3>About</h3>
+                Welcome to KJPresley Designs! Thank you for taking the time to view my work. Now featuring jewelry AND knitting! I'm always available for custom work too.
+                </article>
+              </section>
+              <section>
+                <article>
+                <h3>Useful links</h3>
+                <ul>
+                  <li>
+                  <Link to='/' className='footLink'stlye={{width:'45%'}}>
+                    Home
+                    </Link>
+                  </li>
+                  <li>
+                  <Link to='/' className='footLink' stlye={{width:'45%'}}>
+                    Home
+                    </Link>
+                  </li>
+                  <li>
+                  <Link to='/'  className='footLink' stlye={{width:'45%'}}>
+                    Home
+                    </Link>
+                  </li>
+                  <li>
+                  <Link to='/' className='footLink' stlye={{width:'45%'}}>
+                    Home
+                    </Link>
+                  </li>
+                </ul>
+                </article>
+              </section>
+              <section>
+                <article>
+                <h3>Useful links</h3>
+                Welcome to KJPresley Designs! Thank you for taking the time to view my work. Now featuring jewelry AND knitting! I'm always available for custom work too.
+                </article>
+              </section>
+            </footer>
             </Suspense>
+            
            </Router>
         )
       }

@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     margin-top:50px;
-
-    height:auto;
+    overflow: hidden;
+    min-height:478px;
 }
 
 #itemContainer{
@@ -26,6 +26,7 @@
     padding:10px;
     width:20em;
 }
+
 
 .cardMedia{
     height:20em;
@@ -72,6 +73,7 @@
       
       }
 
+      
       .card{
         height:16.5em;
         padding:10px;
