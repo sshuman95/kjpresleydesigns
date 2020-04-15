@@ -8,7 +8,6 @@ import Cart from './Components/Cart/cart';
 import Custom from './Components/Custom/custom'
 // import Home from './Components/Home/home';
 import Nav from './Components/Nav/nav';
-import About from './Components/About/about';
 import FilterStore from './Components/Store/filterStore';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -185,17 +184,14 @@ class App extends React.Component{
               handleRemove={this.handleRemove}
            />} />
            <Route  exact path="/custom" component={Custom} />
-           <Route  exact path="/about" component={About} />
            <Route  exact path="/admin" component={Admin} />
             </Switch>
             <footer className='footer'>
-              <section>
+              <section id='section1'>
                 <article>
                 <h3>About</h3>
                 Welcome to KJPresley Designs! Thank you for taking the time to view my work. Now featuring jewelry AND knitting! I'm always available for custom work too.
                 </article>
-              </section>
-              <section>
                 <article>
                 <h3>Useful links</h3>
                 <ul>
@@ -219,11 +215,9 @@ class App extends React.Component{
                   </li>
                 </ul>
                 </article>
-              </section>
-              <section>
                 <article>
-                <h3>Useful links</h3>
-                Welcome to KJPresley Designs! Thank you for taking the time to view my work. Now featuring jewelry AND knitting! I'm always available for custom work too.
+                <h3>Contact Us</h3>
+                <span>karen@kjpresleydesigns.com</span>
                 </article>
               </section>
             </footer>
